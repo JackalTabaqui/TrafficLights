@@ -1,0 +1,1 @@
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\bin\Debug\TrafficLights.exe.config
