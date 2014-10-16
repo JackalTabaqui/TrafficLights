@@ -1,1 +1,9 @@
 C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\bin\Debug\TrafficLights.exe.config
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\bin\Debug\TrafficLights.exe
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\bin\Debug\TrafficLights.pdb
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csproj.GenerateResource.Cache
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\obj\Debug\TrafficLights.exe
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\obj\Debug\TrafficLights.pdb
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\obj\Debug\TaskOne.Form1.resources
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\obj\Debug\TaskOne.Properties.Resources.resources
+C:\Users\Андрей\Documents\GitHub\TrafficLights\TrafficLights\obj\Debug\TrafficLights.csprojResolveAssemblyReference.cache
