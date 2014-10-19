@@ -20,22 +20,17 @@ namespace TaskOne
         SolidBrush BlackBrush = new SolidBrush(Color.Black);
         TrafficLight s = new TrafficLight(1000, 300, 1000, TrafficLightColor.Red);
 
-        protected override void OnPaint(PaintEventArgs e)
-        {
-            Draw();
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             s.ChangeColor += (sender2, e2) =>
             {
-                Draw();
+                Invalidate();
             };
         }
 
-        private void Draw()
+        private void Draw(Graphics gr)
         {
-            Graphics gr = this.CreateGraphics();
             Bitmap bitmap = new Bitmap(Width, Height);
             Graphics g = Graphics.FromImage(bitmap);
 
@@ -70,7 +65,7 @@ namespace TaskOne
 
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            Draw();
+            Draw(e.Graphics);
         }
     }
 }

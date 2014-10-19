@@ -87,6 +87,14 @@ namespace TaskOne
         public TrafficLightColor Color
         {
             get { return color; }
+            set
+            {
+                if (color != value)
+                {
+                    color = value; 
+                    OnChangeColor(EventArgs.Empty);
+                }
+            }
         }
     }
 }
